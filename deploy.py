@@ -1,7 +1,7 @@
 from roboflow import Roboflow
 
 # Initialize Roboflow with your API key
-rf = Roboflow(api_key="KJddoApFUU7B0YqsH5fz")
+rf = Roboflow(api_key="ROBOFLOW_API_KEY")
 
 # Access the project and model
 project = rf.workspace("nabirarashid").project("rock-paper-scissors-sxsw-rtuhx")
